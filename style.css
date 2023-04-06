@@ -1,0 +1,97 @@
+@font-face {
+    font-family:graphik;
+    src: url(GraphikMedium.otf);
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color:rgba(24, 24, 24, 1);
+}
+.nav{
+    width: 100%;
+    height: 119px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box{
+    word-spacing: 60px;
+}
+.rectangle{
+    width: 186px;
+    height: 58px;
+}
+.login{
+    border: 1px solid;
+    padding: 15px 40px 15px 40px;
+    border-color: rgba(255, 255, 255, 1);
+}
+.card1{
+    width:100%;
+    height: 176px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+}
+.h1{
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 80px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-family: graphik;
+}
+.card2{
+    display: flex;
+    justify-content: center;
+}
+p{
+    color: rgba(255, 255, 255, 1)
+}
+.card3{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+.btn1{
+    width: 174px;
+    height: 65px;
+    border: none;
+    display: inline-block;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(68, 82, 254, 1);
+    margin-right: 30px;
+}
+.btn2{
+    width: 174px;
+    height: 65px;
+    border: 1px solid;
+    color: rgba(255, 255, 255, 1);
+    background-color:transparent;
+}
+.pics{
+    display: flex;
+    justify-content: center;
+   
+}
+.pic1{
+    width:466px;
+    height: 430px;
+    position: absolute;
+    z-index: 1;
+}
+.pic2{
+    width:466px;
+    height: 430px;
+    margin-top: 220px;
+}
+.pic3{
+    width:466px;
+    height: 430px;
+    margin-top: 220px;
+}
